@@ -1,4 +1,4 @@
-export const people = [
+/* export const people = [
     {
         id : 1,
         name: 'Jace',
@@ -20,4 +20,4 @@ export const people = [
         bio: 'No hair,Eyes?'
         hobbies:'Probing','Space travel','Arkvoodle!!!'
     },
-]
+] */
