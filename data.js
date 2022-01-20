@@ -1,4 +1,4 @@
-export const people = [
+/* export const people = [
     {
         id : 1,
         name: 'Jace',
@@ -7,17 +7,17 @@ export const people = [
         hobbies:'Swing dancing','video games','cooking'
     },
     {
-        id : ,
-        name: '',
-        age: ,
-        bio: ','
-        hobbies:'','',''
+        id : 2,
+        name: 'Josh',
+        age: 28,
+        bio: 'Brown hair,Blue eyes'
+        hobbies:'Gaming','Reading','Building'
     },
     {
-        id : ,
-        name: '',
-        age: ,
-        bio: ','
-        hobbies:'','',''
+        id : 3,
+        name: 'Crypto',
+        age: 2,
+        bio: 'No hair,Eyes?'
+        hobbies:'Probing','Space travel','Arkvoodle!!!'
     },
-]
+] */
