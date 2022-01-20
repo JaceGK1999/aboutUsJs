@@ -1,5 +1,5 @@
 // import functions
-import { people } from './data.js';
+/* import { people } from './data.js'; */
 // grab DOM elements
 
 // set event listeners 
