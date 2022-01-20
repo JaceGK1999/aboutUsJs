@@ -10,6 +10,10 @@ const bioEl = document.querySelector('.bio');
 const hobbiesEl = document.querySelector('.hobbies');  
 const container = document.querySelector('.profile');  
 
+function renderPerson(list) {
+
+}
+
 console.log(selectEl);
 // set event listeners 
 selectEl.addEventListener('change', (e) => {
@@ -17,12 +21,12 @@ selectEl.addEventListener('change', (e) => {
     const selected = e.target.value; 
     
     if (selected === 'one') 
-    { renderPerson (0);
+    { renderPerson(1);
     } else if (selected === 'two') 
-    { renderPerson (1);
+    { renderPerson(2);
     }       
     else (selected === 'three');
-    {renderPerson (2);}
+    { renderPerson(3);}
     
 });  
 // get user input
