@@ -8,24 +8,26 @@ const nameEl = document.querySelector('.name');
 const ageEl = document.querySelector('.age');  
 const bioEl = document.querySelector('.bio');  
 const hobbiesEl = document.querySelector('.hobbies');  
+const animalEl = document.querySelector('.animal');  
+const locationEl = document.querySelector('.location');  
 const container = document.querySelector('.profile');  
 console.log(selectEl, nameEl, ageEl, bioEl, hobbiesEl, container);
 
-function renderPerson(list) {
-    console.log(people, 'people');
-    container.classList.add(`${people[list].name}`);
-    
-    nameEl.textContent = 'Name: ' + people[list].name;
-    ageEl.textContent = 'Age: ' + people[list].age;
-    bioEl.textContent = 'Bio: ' + people[list].bio;
+function renderPerson(index){
+    nameEl.textContent = people[index].name;
+    ageEl.textContent = people[index].age;
+    bioEl.textContent = people[index].bio;
+    animalEl.textContent = people[index].animal;
+    locationEl.textContent = people[index].location;
 
-    for (const hobby of people[list].hobbies) {
+    for (const hobby of people[index].hobbies) {
         const li = document.createElement('li');
         li.textContent = hobby;
         hobbiesEl.appendChild(li);
+
+
     }
 }
-
 
 
 console.log(renderPerson(0));
@@ -35,15 +37,17 @@ selectEl.addEventListener('change', (e) => {
     hobbiesEl.innerHTML = '';
     const selected = e.target.value; 
     
-    if (selected === 'one') 
-    { renderPerson(0);
-    } else if (selected === 'two') 
-    { renderPerson(1);
-    }       
-    else (selected === 'three');
-    { renderPerson(2);}
     
-});  
+    if (selected === 'one') {
+        renderPerson(0);
+    } else if (selected === 'two') {
+        renderPerson(1);
+    } else 
+    {
+        renderPerson(2);
+    }
+}
+);  
 // get user input
 
     // use user input to update state 
