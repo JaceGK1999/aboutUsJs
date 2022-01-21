@@ -1,7 +1,7 @@
 export const people = [
     {
         id : 1,
-        name: 'Jace (He/Him)',
+        name: 'Jace',
         age: 22,
         bio: 'Brown hair, Brown eyes',
         hobbies:['Swing dancing', 'video games', 'cooking'],
