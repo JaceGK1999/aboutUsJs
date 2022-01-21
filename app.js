@@ -29,22 +29,26 @@ function renderPerson(index){
     }
 }
 
-
-console.log(renderPerson(0));
 // set event listeners 
 selectEl.addEventListener('change', (e) => {
     container.classList.remove('Jace', 'Josh', 'Crypto');
     hobbiesEl.innerHTML = '';
     const selected = e.target.value; 
     
-    
     if (selected === 'one') {
         renderPerson(0);
+        container.classList.remove('Josh', 'Crypto');
+        container.classList.add('Jace');
+
     } else if (selected === 'two') {
         renderPerson(1);
+        container.classList.remove('Jace', 'Crypto');
+        container.classList.add('Josh');
     } else 
     {
         renderPerson(2);
+        container.classList.remove('Jace', 'Josh');
+        container.classList.add('Crypto');
     }
 }
 );  

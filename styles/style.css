@@ -30,6 +30,84 @@ body {
     background-color: var(--color2);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+    /* border: pink 4px outset;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: burlywood;
+    color: rgb(119, 56, 67);
+    margin: 30px; */
+    /* padding: 30px; */
+
+
+.Jace {
+    border: pink 10px outset;
+    border-style: double;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(167, 105, 25);
+    color: rgb(224, 196, 34);
+    margin: 10px;
+    padding: 10px;
+}
+
+#jace {
+    border: pink 10px outset;
+    border-style: double;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(167, 105, 25);
+    color: rgb(224, 196, 34);
+    margin: 10px;
+    padding: 10px;
+}
+.Josh {
+    border: rgb(250, 234, 10) 6px outset;
+    border-style: dashed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(209, 9, 9);
+    color: rgb(17, 12, 13);
+    margin: 30px;
+    padding: 30px;
+}
+
+#josh {
+    border: rgb(250, 234, 10) 6px outset;
+    border-style: dashed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(209, 9, 9);
+    color: rgb(17, 12, 13);
+    margin: 30px;
+    padding: 30px;
+}
+.Crypto {
+    border: rgb(250, 183, 194) 2px outset;
+    border-style: dotted;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(75, 72, 68);
+    color: rgb(38, 141, 182);
+    margin: 20px;
+    padding: 20px;
+}
+
+#crypto {
+    border: rgb(250, 183, 194) 2px outset;
+    border-style: dotted;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(75, 72, 68);
+    color: rgb(38, 141, 182);
+    margin: 20px;
+    padding: 20px;
+}
+
 main {
     display: flex;
     flex-direction: column;
