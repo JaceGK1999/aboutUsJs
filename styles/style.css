@@ -29,7 +29,11 @@ body {
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
 }
+h3 {
+    font-style: italic;
+    text-decoration: underline;
 
+}
 .Jace {
     border: pink 10px outset;
     border-style: double;
