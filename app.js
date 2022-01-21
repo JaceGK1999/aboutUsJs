@@ -1,8 +1,7 @@
-// import functions
 import { people } from './data.js';
 
-console.log(people, 'people');
-// grab DOM elements
+
+
 const selectEl = document.querySelector('select');  
 const nameEl = document.querySelector('.name');  
 const ageEl = document.querySelector('.age');  
@@ -11,7 +10,7 @@ const hobbiesEl = document.querySelector('.hobbies');
 const animalEl = document.querySelector('.animal');  
 const locationEl = document.querySelector('.location');  
 const container = document.querySelector('.profile');  
-console.log(selectEl, nameEl, ageEl, bioEl, hobbiesEl, container);
+
 
 function renderPerson(index){
     nameEl.textContent = people[index].name;
@@ -29,7 +28,6 @@ function renderPerson(index){
     }
 }
 
-// set event listeners 
 selectEl.addEventListener('change', (e) => {
     container.classList.remove('Jace', 'Josh', 'Crypto');
     hobbiesEl.innerHTML = '';
@@ -52,8 +50,4 @@ selectEl.addEventListener('change', (e) => {
     }
 }
 );  
-// get user input
 
-    // use user input to update state 
-    
-    // update DOM to reflect the new state
